@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<fop>
+    <!-- Strict FO validation -->
+    <strict-validation>true</strict-validation>
+    <renderers>
+        <renderer mime="application/pdf">
+            <fonts>
+                <font kerning="yes" embed-url="file:///C:/windows/fonts/arial.ttf">
+                    <font-triplet name="Arial" style="normal" weight="normal"/>
+                </font>
+                <font kerning="yes" embed-url="file:///C:/windows/fonts/arialbd.ttf">
+                    <font-triplet name="Arial" style="normal" weight="bold"/>
+                </font>
+                <font kerning="yes" embed-url="file:///C:/windows/fonts/cour.ttf">
+                    <font-triplet name="Courier New" style="normal" weight="normal"/>
+                </font>
+                <font kerning="yes" embed-url="file:///C:/windows/fonts/courbd.ttf">
+                    <font-triplet name="Courier New" style="normal" weight="bold"/>
+                </font>                
+                <!-- <font kerning="yes" embed-url="file:///C:\Users\Mscigniew\AppData\Local\Microsoft\Windows\Fonts\code128_XXL.ttf">
+                    <font-triplet name="Barcode" style="normal" weight="normal"/>
+                </font> -->
+                <directory>C:\Users\Mscigniew\AppData\Local\Microsoft\Windows\Fonts</directory>
+                <auto-detect/>
+            </fonts>
+        </renderer>
+    </renderers>
+</fop>
