@@ -1,6 +1,6 @@
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:saxon="http://icl.com/saxon" extension-element-prefixes="saxon" version="3.0" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:cancac="urn:oasis:names:specification:ubl:schema:xsd:CanonicalAggregateComponents-2" xmlns:cancbc="urn:oasis:names:specification:ubl:schema:xsd:CanonicalBasicComponents-2" xmlns:exsl="http://exslt.org/common">
     
-    <!-- This is basic visualization, made only for demonstrational purposes. Commercial usage of whole stylesheet is forbidden, however templates and parts of the code are free to use. 
+    <!-- This is basic visualization, made for demonstrational purposes. 
     Owner: Mścigniew Winkel -->
     
         

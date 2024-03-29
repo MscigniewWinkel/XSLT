@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <fop>
-    <!-- Strict FO validation -->
-    <strict-validation>true</strict-validation>
     <renderers>
         <renderer mime="application/pdf">
             <fonts>
@@ -16,12 +14,7 @@
                 </font>
                 <font kerning="yes" embed-url="file:///C:/windows/fonts/courbd.ttf">
                     <font-triplet name="Courier New" style="normal" weight="bold"/>
-                </font>                
-                <!-- <font kerning="yes" embed-url="file:///C:\Users\Mscigniew\AppData\Local\Microsoft\Windows\Fonts\code128_XXL.ttf">
-                    <font-triplet name="Barcode" style="normal" weight="normal"/>
-                </font> -->
-                <directory>C:\Users\Mscigniew\AppData\Local\Microsoft\Windows\Fonts</directory>
-                <auto-detect/>
+                </font>   
             </fonts>
         </renderer>
     </renderers>
